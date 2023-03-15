@@ -7,6 +7,7 @@ The Shop Tasmania Application was developed for a client using Eazi-Apps CMS.
 The project is available to download for iOS and Android Devices.
 
 Android Link:  https://play.google.com/store/apps/details?id=com.eaziapps.cms.android635f10feb6de3
+
 iOS Link:  https://apps.apple.com/au/app/shop-tasmania/id6444770736
 
 The CSS code is the only part of the code I can share for legal reasons.
