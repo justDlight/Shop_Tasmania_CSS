@@ -1,0 +1,1222 @@
+.sbox {
+  height: 100% !important;
+  width: 100%;
+  position: absolute;
+  //border: 3px solid green;
+  //overflow: visible !important;
+  //overflow: hidden !important;
+  //overflow-y: hidden !important; 
+}
+
+.icon.ion-ios-world-outline {
+  color: transparent;
+}
+.item.item-custom {
+    border-color:#fcfcfc !important;
+    background-color:#fcfcfc !important;
+    //color:transparent !important;
+}
+
+.gm-style {
+  height: 100vh !important;
+}
+
+.tbox {
+  //border: 9px solid yellow;
+}
+
+.scroll:has(.homepage-custom) {
+	transform: translate3d(0px,0px,0px) !important;
+}
+
+.item.homepage-custom.border-custom {
+  border-width: 0px !important;
+}
+
+.scroll:has(.list.place-header) {
+  //transform: translate3d(0px,0px,0px) !important;
+  top: 10% !important;
+  position: absolute;
+  width: 100%;
+}
+
+
+//Bottom feature bar the whole bar
+.homepage-custom.border-custom.tabs {
+  //background-color: green !important;
+  background-color: black;
+  //background-position: center; /* Center the image */
+  //background-repeat: no-repeat; /* Do not repeat the image */
+  //background-size: cover; /* Resize the background image to cover the entire container */
+  //width: 100%;
+  //right: 10% !important
+  //position: absolute;
+  //top: 95%;
+  display: flex !important;
+  justify-content: space-evenly;
+}
+.card {
+  box-shadow: 0 0px 0px rgb(0 0 0 / 30%);
+}
+//Resized images to fit into places list view
+.image {
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-color: white !important;
+}
+
+
+//homepage Newest offers button
+ul.homepage-custom li:nth-child(1) {
+  display: none !important;
+  //color: red;
+  //background-color: blue;
+  //display: flex;
+  //position: absolute;
+  //top: 19%;
+  //left: 2.5% !important;
+}
+
+.inner-scroll {
+  height: 100vh!important;
+  transform: translate3d(0px,0px,0px) !important;
+}
+
+//homepage Newest offers button
+li.homepage-custom:nth-child(5) div{
+  background-color: transparent !important;
+  background-image: url("https://shoptasmania.com.au/assets/img/1_see_newest_offers.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain; /* Resize the background image to cover the entire container */
+  width: 100%;
+  height: 100% !important;
+  //position: absolute;
+  //top: 19%;
+  //left: 2.5% !important;
+}
+
+//homepage newest offers
+li.text-center.homepage-custom:nth-child(5) {
+  //background-color: green !important;
+  //background-image: url("https://shoptas2022.mthreemedia.com.au/assets/img/1_Tasmanian_made.png");
+  //background-position: center; /* Center the image */
+  //background-repeat: no-repeat; /* Do not repeat the image */
+  //background-size: cover; /* Resize the background image to cover the entire container */
+  width: 100% !important;
+  height: 7% !important;
+  //left: 1% !important;
+  //padding-left: 1% !important;
+  right: 0% !important;
+  position: absolute;
+  padding-left: 4% !important;
+  top: 20%;
+  //right: 50% !important;
+  //padding-left: 3% !important;
+}
+
+
+//homepage offers near me button
+li.homepage-custom:nth-child(15) div{
+  background-color: transparent !important;
+  background-image: url("https://shoptasmania.com.au/assets/img/1_Show_Offers.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain; /* Resize the background image to cover the entire container */
+  width: 100%;
+  height: 100% !important;
+  //position: absolute;
+  //top: 76%;
+  //left: 2.5% !important!;
+}
+
+//homepage offers near me
+li.text-center.homepage-custom:nth-child(15) {
+  //background-color: green !important;
+  //background-image: url("https://shoptas2022.mthreemedia.com.au/assets/img/1_Tasmanian_made.png");
+  //background-position: center; /* Center the image */
+  //background-repeat: no-repeat; /* Do not repeat the image */
+  //background-size: cover; /* Resize the background image to cover the entire container */
+  width: 100% !important;
+  height: 7% !important;
+  position: absolute;
+  top: 80%;
+  right: 0% !important;
+  //left: 1% !important;
+  //padding-right: 10% !important;
+  padding-left: 4% !important;
+}
+
+
+li.text-center.homepage-custom:nth-child(6) {
+  //background-color: green !important;
+  //background-image: url("https://shoptas2022.mthreemedia.com.au/assets/img/1_Tasmanian_made.png");
+  //background-position: center; /* Center the image */
+  //background-repeat: no-repeat; /* Do not repeat the image */
+  //background-size: cover; /* Resize the background image to cover the entire container */
+  width: 100% !important;
+  height: 8% !important;
+  position: absolute;
+  top: 9999px;
+  right: 9999px !important;
+  //left: 1% !important;
+  //padding-right: 10% !important;
+  padding-left: 4% !important;
+}
+
+
+li.homepage-custom:nth-child(6) div{
+  background-color: transparent !important;
+  //position: absolute;
+  position: absolute;
+  top: 9999px !important;
+  right: 9999px !important;
+  //top: 76%;
+  //left: 2.5% !important!;
+}
+
+
+//homepage Tasmanian Made
+li.homepage-custom:nth-child(7) div{
+  background-color: #23ad71 !important;
+  background-image: url("https://shoptasmania.com.au/assets/img/1_Writing_Tasmaninan.png"), url("https://shoptasmania.com.au/assets/img/1_Plain_Tasmanian.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat, repeat; /* Do not repeat the image */
+  background-size: contain, cover; /* Resize the background image to cover the entire container */
+  width: 100%;
+  height: 100% !important;
+  //position: absolute;
+  //top: 28%;
+  //right: 50% !important;
+}
+
+//homepage Tasmanian Made
+li.text-center.homepage-custom:nth-child(7) {
+  //background-color: green !important;
+  //background-image: url("https://shoptas2022.mthreemedia.com.au/assets/img/1_Tasmanian_made.png");
+  //background-position: center; /* Center the image */
+  //background-repeat: no-repeat; /* Do not repeat the image */
+  //background-size: cover; /* Resize the background image to cover the entire container */
+  width: 49% !important;
+  height: 15% !important;
+  position: absolute;
+  top: 29%;
+  right: 49% !important;
+  padding-left: 3% !important;
+}
+
+//homepage Buy Tasmania
+li.homepage-custom:nth-child(8) div{
+  background-color: #ff658b !important;
+  background-image: url("https://shoptasmania.com.au/assets/img/1_MicrosoftTeams-image-new.png"), url("https://shoptasmania.com.au/assets/img/1_Plain_Where.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat, repeat; /* Do not repeat the image */
+  background-size: contain, cover; /* Resize the background image to cover the entire container */
+  width: 100%;
+  height: 100% !important;
+  //position: absolute;
+  //top: 28%;
+  //right: 0% !important;
+}
+
+//homepage Buy Tasmania
+li.text-center.homepage-custom:nth-child(8) {
+  //background-color: green !important;
+  //background-image: url("https://shoptas2022.mthreemedia.com.au/assets/img/1_Tasmanian_made.png");
+  //background-position: center; /* Center the image */
+  //background-repeat: no-repeat; /* Do not repeat the image */
+  //background-size: cover; /* Resize the background image to cover the entire container */
+  width: 49% !important;
+  height: 15% !important;
+  position: absolute;
+  top: 29%;
+  right: 0% !important;
+  //left: 3% !important;
+  padding-left: 2% !important;
+}
+
+//homepage Dinning & Takeaway
+li.homepage-custom:nth-child(9) div{
+ background-color: #f1c143 !important;
+  background-image: url("https://shoptasmania.com.au/assets/img/1_Writing_Dinning.png"), url("https://shoptasmania.com.au/assets/img/1_Plain_Dinning.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat, repeat; /* Do not repeat the image */
+  background-size: contain, cover; /* Resize the background image to cover the entire container */
+  width: 100%;
+  //right: 0% !important;
+  height: 100% !important;
+  //position: absolute;
+  //top: 44%;
+}
+
+//homepage Dinning & Takeaway
+li.text-center.homepage-custom:nth-child(9) {
+  //background-color: green !important;
+  //background-image: url("https://shoptas2022.mthreemedia.com.au/assets/img/1_Tasmanian_made.png");
+  //background-position: center; /* Center the image */
+  //background-repeat: no-repeat; /* Do not repeat the image */
+  //background-size: cover; /* Resize the background image to cover the entire container */
+  width: 49% !important;
+  height: 15% !important;
+  position: absolute;
+  top: 46%;
+  right: 0% !important;
+  padding-left: 2% !important;
+}
+
+//homepage Things To Do
+li.homepage-custom:nth-child(10) div{
+  background-color: #39d0d7 !important;
+  background-image: url("https://shoptasmania.com.au/assets/img/1_Writing_Things.png"), url("https://shoptasmania.com.au/assets/img/1_Plain_Things.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat, repeat; /* Do not repeat the image */
+  background-size: contain, cover; /* Resize the background image to cover the entire container */
+  width: 100%;
+  //right: 50% !important;
+  height: 100% !important;
+  //position: absolute;
+  //top: 44%;
+}
+
+//Things To Do
+li.text-center.homepage-custom:nth-child(10) {
+  //background-color: green !important;
+  //background-image: url("https://shoptas2022.mthreemedia.com.au/assets/img/1_Tasmanian_made.png");
+  //background-position: center; /* Center the image */
+  //background-repeat: no-repeat; /* Do not repeat the image */
+  //background-size: cover; /* Resize the background image to cover the entire container */
+  width: 49% !important;
+  height: 15% !important;
+  position: absolute;
+  top: 46%;
+  right: 49% !important;
+  padding-left: 3% !important;
+}
+
+//Home Ideas button
+li.homepage-custom:nth-child(11) div{
+  background-color: #f09f5d !important;
+  background-image: url("https://shoptasmania.com.au/assets/img/1_Writing_Home.png"), url("https://shoptasmania.com.au/assets/img/1_Plain_Home.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat, repeat; /* Do not repeat the image */
+  background-size: contain, cover; /* Resize the background image to cover the entire container */
+  width: 100%;
+  height: 100% !important;
+  //position: absolute;
+  //top: 60%;
+  //right: 50% !important;
+}
+
+
+//Home Ideas button
+li.text-center.homepage-custom:nth-child(11) {
+  //background-color: green !important;
+  //background-image: url("https://shoptas2022.mthreemedia.com.au/assets/img/1_Tasmanian_made.png");
+  //background-position: center; /* Center the image */
+  //background-repeat: no-repeat; /* Do not repeat the image */
+  //background-size: cover; /* Resize the background image to cover the entire container */
+  width: 49% !important;
+  height: 15% !important;
+  position: absolute;
+  top: 63%;
+  right: 49% !important;
+  padding-left: 3% !important;
+}
+
+//homepage Services
+li.homepage-custom:nth-child(12) div{
+  background-color: #695f9e !important;
+  background-image: url("https://shoptasmania.com.au/assets/img/1_MicrosoftTeams-image-1-new.png"), url("https://shoptasmania.com.au/assets/img/1_Plain_Services.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat, repeat; /* Do not repeat the image */
+  background-size: contain, cover; /* Resize the background image to cover the entire container */
+  width: 100%;
+  height: 100% !important;
+  //position: absolute;
+  //top: 60%;
+  //right: 0% !important;
+}
+
+//Homepage Services
+li.text-center.homepage-custom:nth-child(12) {
+  //background-color: green !important;
+  //background-image: url("https://shoptas2022.mthreemedia.com.au/assets/img/1_Tasmanian_made.png");
+  //background-position: center; /* Center the image */
+  //background-repeat: no-repeat; /* Do not repeat the image */
+  //background-size: cover; /* Resize the background image to cover the entire container */
+  width: 49% !important;
+  height: 15% !important;
+  position: absolute;
+  top: 63%;
+  right: 0% !important;
+  padding-left: 2% !important;
+}
+  /*  
+li.homepage-custom:nth-child(12) div::after {
+    content: "";
+    height: 100px !important;
+    width: 100px !important;
+    position: absolute !important;
+    top: 10px !important;
+    right: 94px !important;
+    background-image: url(https://shoptasmania.com.au/assets/img/1_Tas_Icon.png);
+    background-position: center;
+    background-size: contain;
+	content: "";
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 100%;
+    display: flex;
+    background-image: url(https://shoptasmania.com.au/assets/img/1_Tas_Icon.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+ */
+
+//Banner top Become a member button
+li.homepage-custom:nth-child(13) div{
+  background-color: white !important;
+  background-image: url("https://shoptasmania.com.au/assets/img/1_Shop-Tasmania-Banner.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain; /* Resize the background image to cover the entire container */
+  margin: auto;
+  width: 100%;
+  height: 100% !important;
+  //position: absolute;
+  //top: 0%;
+  //left: 3% !important!;
+  //right: 0% !important!;
+}
+
+li.text-center.homepage-custom:nth-child(13) {
+  //background-color: green !important;
+  //background-image: url("https://shoptas2022.mthreemedia.com.au/assets/img/1_Tasmanian_made.png");
+  //background-position: center; /* Center the image */
+  //background-repeat: no-repeat; /* Do not repeat the image */
+  //background-size: cover; /* Resize the background image to cover the entire container */
+  width: 100% !important;
+  height: 18% !important;
+  position: absolute;
+  top: 2%;
+  right: -2% !important;
+  //left: -10% !important;
+  //padding-left: 15% !important;
+}
+
+//TEST
+li.homepage-custom:nth-child(16) div{
+  background-color: green !important;
+  margin: auto;
+  width: 50%;
+  grid-row: 1;
+  grid-column: 1 / span 2;
+  height: 17% !important;
+  position: absolute;
+  top: 85%%;
+  left: 0% !important!;
+}
+
+//TEST
+ul.homepage-custom:nth-child(16) li{
+  background-color: green !important;
+  margin: auto;
+  width: 50%;
+  grid-row: 1;
+  grid-column: 1 / span 2;
+  height: 18% !important;
+  position: absolute;
+  top: 85%%;
+  left: 0% !important!;
+}
+
+.loader {
+  background-image: url("https://mmg-one.com.au/shoptas/app-loading.gif") !important;
+  position: absolute !important;
+  height: 100vh !important;
+  width: 100% !important;
+  //top: -10% !important;
+  //right: 50% !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+li.homepage-custom:nth-child(4) img{
+  opacity: 0.0;
+}
+
+li.homepage-custom:nth-child(5) img{
+  opacity: 0.0;
+}
+
+li.homepage-custom:nth-child(6) img{
+  opacity: 0.0;
+}
+
+li.homepage-custom:nth-child(7) img{
+  opacity: 0.0;
+}
+
+li.homepage-custom:nth-child(8) img{
+  opacity: 0.0;
+}
+
+li.homepage-custom:nth-child(9) img{
+  opacity: 0.0;
+}
+
+li.homepage-custom:nth-child(10) img{
+  opacity: 0.0;
+}
+
+li.homepage-custom:nth-child(11) img{
+  opacity: 0.0;
+}
+
+li.homepage-custom:nth-child(12) img{
+  opacity: 0.0;
+}
+
+li.homepage-custom:nth-child(15) img{
+  opacity: 0.0;
+}
+
+li.homepage-custom:nth-child(16) img{
+  opacity: 0.0;
+}
+
+li.homepage-custom:nth-child(13) img{
+  opacity: 0.0;
+}
+
+
+li.homepage-custom:nth-child(5) p{
+  //color: blue !important;
+  //display: none !important;
+  pointer-events: none;
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+li.homepage-custom:nth-child(6) p{
+  //color: blue !important;
+  //display: none !important;
+  pointer-events: none;
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+li.homepage-custom:nth-child(7) p{
+  //color: blue !important;
+  //display: none !important;
+  pointer-events: none;
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+li.homepage-custom:nth-child(8) p{
+  //color: blue !important;
+  //display: none !important;
+  pointer-events: none;
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+li.homepage-custom:nth-child(9) p{
+  //color: blue !important;
+  //display: none !important;
+  pointer-events: none;
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+li.homepage-custom:nth-child(10) p{
+  //color: blue !important;
+  //display: none !important;
+  pointer-events: none;
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+li.homepage-custom:nth-child(11) p{
+  //color: blue !important;
+  //display: none !important;
+  pointer-events: none;
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+li.homepage-custom:nth-child(12) p{
+  //color: blue !important;
+  //display: none !important;
+  pointer-events: none;
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+li.homepage-custom:nth-child(13) p{
+  //color: blue !important;
+  //display: none !important;
+  pointer-events: none;
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+li.homepage-custom:nth-child(14) p{
+  //color: blue !important;
+  //display: none !important;
+  pointer-events: none;
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+li.homepage-custom:nth-child(15) p{
+  //color: blue !important;
+  //display: none !important;
+  pointer-events: none;
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+li.homepage-custom:nth-child(16) p{
+  //color: blue !important;
+  //display: none !important;
+  pointer-events: none;
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+//homepage offers near me button
+li.homepage-custom:nth-child(14) div{
+  pointer-events: none;
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+.text {
+  color: black !important;
+  //background-color: blue !important;
+}
+
+
+//Bottom Bar Button
+ul.border-custom li:nth-child(2){
+  //background-color: green !important;
+  //border: 30px solid pink;
+  //background-image: url("https://shoptas2022.mthreemedia.com.au/assets/img/1_newest_offers.png");
+  //background-position: center; /* Center the image */
+  //background-repeat: no-repeat; /* Do not repeat the image */
+  //background-size: cover; /* Resize the background image to cover the entire container */
+  //margin: auto;
+  //padding-left: 60% !important;
+  //width: 100%;
+  //grid-column-start: 1 !important;
+  //grid-column-end: 3 !important;
+  //grid-row-start: 2 !important;
+  //grid-row-end: 3 !important;
+  //grid-column: span 2 !important; 
+  //height: 8% !important;
+  //position: absolute;
+  //top: 19%;
+  //left: 0% !important!;
+  //padding-top: 100%;
+}
+
+//ACCOUNTS FEATURE CUSTOM CSS
+ion-modal-view.customer-view.customer-layout1.modal.has-background-image.slide-in-up div > section.avatar.text-center.padding {
+  background-image: linear-gradient(360deg, #eee, #f9f9f9); /*You can change the colors of image background*/
+  border-radius: 0% 0% 30% 30% !important;
+  padding-top: 20px;
+    padding-bottom: 20px;
+  border-radius: 0px 0px 15px 15px;
+}
+ion-modal-view.customer-view.customer-layout1.modal.has-background-image.slide-in-up img {
+  border: 3px white solid;
+    border-radius: 100px;
+    clip-path: circle;
+    padding: 0px;
+    width: 150px;
+    height: 150px;
+}
+ion-modal-view.customer-view.customer-layout1.modal.has-background-image.slide-in-up div > div.list {
+  width: 95%;
+    margin: auto;
+    margin-top: 30px;
+    /*margin-bottom: 20px;*/
+}
+ion-modal-view.customer-view.customer-layout1.modal.has-background-image.slide-in-up div > div.list > div,
+ion-modal-view.customer-view.customer-layout1.modal.has-background-image.slide-in-up div > div.list > label {
+  border: 1px #009fe3 solid;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    text-align: left;
+    padding-left: 8px;
+}
+ion-modal-view.customer-view.customer-layout1.modal.has-background-image.slide-in-up div > div.list input {
+  padding-right: 8px;
+    color: black;
+    font-weight: normal;
+}
+ion-modal-view.customer-view.customer-layout1.modal.has-background-image.slide-in-up div > div.list label.checkbox-custom {
+  font-size: 14px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    border: none;
+    background-color: transparent;
+    color: white !important;
+  border-radius: 10px;
+}
+form[name="accountForm"].slide-top > div:nth-child(2) div.item.item-custom.item-icon-left.ng-binding {
+  background-color: #eee;
+    color: white;
+    text-align: center;
+    border: none;
+}
+form[name="accountForm"].slide-top > div:nth-child(2) label.checkbox-custom {
+  border: none;
+    background-color: transparent;
+    text-align: center;
+}
+form[name="accountForm"].slide-top > div:nth-child(3) {
+  width: 95%;
+    margin: auto;
+}
+form[name="accountForm"].slide-top > div:nth-child(3) div.item.item-divider.item-divider-custom {
+  display: none;
+}
+form[name="accountForm"].slide-top > div:nth-child(3) div.item.item-custom.item-icon-left.ng-binding {
+  padding-left: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: grey;
+    color: white;
+}
+ion-modal-view.customer-view.customer-layout1.modal.has-background-image.slide-in-up button.button.button-positive.button-positive-custom.ng-binding.button-full {
+  border: none;
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #009fe3; /*You can change color for submit button*/
+    border-radius: 8px;
+    color: white;
+    //text-transform: uppercase;
+    font-weight: normal;
+    margin-top: 0;
+    min-height: 30px;
+}
+ion-modal-view.customer-view.customer-layout1.modal.has-background-image.slide-in-up div.padding.text-center.ng-binding > span {
+  display: block;
+    border: none;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    color: white;
+    //text-transform: uppercase;
+    padding: 10px;
+    background-color: #009fe3;
+}
+ion-modal-view.customer-view.customer-layout1.modal.has-background-image.slide-in-up div > div.padding.text-right {
+  text-align: center;
+}
+ion-modal-view.customer-view.customer-layout1.modal.has-background-image.slide-in-up div.input-label.ng-binding {
+  font-weight: inherit;
+}
+
+/*Places - View*/
+ion-view[state="places-view"] {
+  z-index: 9 !important;
+}
+ion-view[state="places-view"] ion-content {
+  top: 0px !important;
+  background-color: white !important;
+}
+ion-view[state="places-view"] ion-content div.scroll > div.list.place-header > div > div.place-title {
+  left: 10%;
+}
+ion-view[state="places-view"] ion-content div.scroll > div.list.place-header {
+  margin-bottom: 0px;
+    padding: 0px;
+  overflow: hidden;
+}
+ion-view[state="places-view"] ion-content div.scroll > div.list.place-header > div.item.item-image.cover-place {
+  -webkit-animation: kenburns-top 5s ease-out infinite alternate-reverse both;
+        animation: kenburns-top 5s ease-out infinite alternate-reverse both;
+}
+@-webkit-keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+            transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+            transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+}
+@keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+            transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+            transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+}
+ion-view[state="places-view"] ion-content div.scroll > div.place-blocks.place-blocks-portrait > div > div > div.card {
+  box-shadow: none;
+  margin: 10px;
+}
+ion-view[state="places-view"] ion-content div.scroll > div.place-blocks.place-blocks-portrait > div > div > div.card div.sb-cms-block-address > div {
+  background-color: #009fe3;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 5px !important;
+}
+ion-view[state="places-view"] ion-content div.scroll > div.place-blocks.place-blocks-portrait > div > div > div.card div.sb-cms-block-address > div p,
+ion-view[state="places-view"] ion-content div.scroll > div.place-blocks.place-blocks-portrait > div > div > div.card div.sb-cms-block-address > div a {
+  color: white;
+}
+ion-view[state="places-view"] ion-content div.scroll > div.place-blocks.place-blocks-portrait > div > div > div.card > div > div.item.item-text-wrap.item-custom.sb-cms-text {
+  padding: 0px;
+}
+ion-view[state="places-view"] ion-content div.scroll > div.place-blocks.place-blocks-portrait > div > div > div.card > div > div.item.item-text-wrap.item-custom.sb-cms-text a {
+  display: block;
+    text-align: center;
+    padding: 15px;
+    background-color: #33cd5f;
+    border-radius: 10px;
+    color: white !important;
+    font-size: 16px;
+    font-weight: bold;
+  -webkit-animation: color-change-4x 3s steps(2, end) infinite alternate-reverse both;
+        animation: color-change-4x 3s steps(2, end) infinite alternate-reverse both;
+}
+@-webkit-keyframes color-change-4x {
+  0% {
+    background: #19dcea;
+  }
+  33.3333% {
+    background: #b22cff;
+  }
+  66.666% {
+    background: #ea2222;
+  }
+  100% {
+    background: #f5be10;
+  }
+}
+@keyframes color-change-4x {
+  0% {
+    background: #19dcea;
+  }
+  33.3333% {
+    background: #b22cff;
+  }
+  66.666% {
+    background: #ea2222;
+  }
+  100% {
+    background: #f5be10;
+  }
+}
+ion-view[state="places-view"] ion-content div.scroll > div.place-blocks.place-blocks-portrait > div > div > div.card > div > div.item.item-text-wrap.item-custom.sb-cms-text p {
+  color: black;
+    text-align: justify;
+}
+.module-places .cover-place .place-title .span-title {
+    background: none !important;
+  color: transparent;
+    max-width: calc(100vw + 2px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0.25rem 2vh 0.25rem 2vh;
+    display: hidden;
+}
+.module-places .cover-place .place-title .span-title {
+    background: none !important;
+  color: transparent;
+  max-width: calc(100vw + 2px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0.25rem 2vh 0.25rem 2vh;
+    display: inline-block;
+}
+.module-places .cover-place .place-title .span-title {
+    background: none !important;
+    color: transparent;
+    max-width: calc(100vw + 2px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0.25rem 2vh 0.25rem 2vh;
+    display: inline-block;
+}
+.module-places .cover-place .place-title .span-title {
+    background: none !important;
+    color: transparent;
+    max-width: calc(100vw + 2px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: .25rem 2vh .25rem 2vh;
+    display: inline-block;
+}
+.module-places .cover-place .place-title .span-subtitle {
+    font-size: 0.75rem;
+    background: none !important;
+    color: transparent;
+    max-width: calc(100vw + 2px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0.25rem 2vh 0.25rem 2vh;
+    display: inline-block;
+}
+
+//CUSTOM PAGE CSS
+//.item.item-text-wrap.item-icon-left.item-custom.ng-binding {
+  //color: black;
+  //background-color: red;
+  //background-image: url("paper.gif");
+//}
+
+.card div[sb-cms-button] {
+    margin: 0 12px !important;
+}
+
+div[ng-switch-when='source'].card{
+  div[sb-cms-source]{
+    .item.item-custom{
+    	background-color: transparent !important;
+    }
+  }
+}
+
+/*
+div.scroll div:nth-child(4) .item.item-text-wrap.item-icon-left.item-custom.ng-binding {
+  color: black;
+  //background-color: red;
+  background-image: url("https://shoptasmania.com.au/assets/img/1_Contact_Us.svg");
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important; //Center the image 
+  background-color: #0ba5f4 !important;
+  color: transparent;
+  height: 100px !important;
+  width: 88% !important;
+  position: absolute !important;
+  top: 63% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  //margin-top: 20px !important;
+  //padding-left: 20% !important;
+  //padding-right: 10% !important;
+}
+
+
+
+div.scroll div:nth-child(5) .item.item-text-wrap.item-icon-left.item-custom.ng-binding {
+  color: black;
+  //background-color: red;
+  background-image: url("https://shoptasmania.com.au/assets/img/1_Become_Partner.svg");
+  background-size: contain !important;
+  background-position: center !important; //Center the image
+  background-repeat: no-repeat !important;
+  background-color: #0ba5f4 !important;
+  width: 88% !important;
+  position: absolute !important;
+  color: transparent;
+  height: 100px !important;
+  top: 79% !important;
+  //margin-top: 20px !important;
+}
+*/
+
+//Get directions Map button
+.item.item-text-wrap.item-icon-left.item-custom.sb-cms-block-address-locate {
+  background-image: url("https://shoptasmania.com.au/assets/img/1_Get_Directions_2.png");
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  color: transparent !important;
+  height: 90px !important;
+  width: 500px !important;
+}
+
+//Phone Map Button
+.item.item-text-wrap.item-icon-left.item-custom.sb-cms-block-address-phone {
+  background-image: url("https://shoptasmania.com.au/assets/img/1_Phone_2.png");
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  color: transparent !important;
+  height: 90px !important;
+  width: 500px !important;
+}
+
+//See offers map button
+.item.item-text-wrap.item-icon-left.item-custom.sb-cms-block-address-website {
+  background-image: url("https://shoptasmania.com.au/assets/img/1_See_All_Offers.png");
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  color: transparent !important;
+  height: 90px !important;
+  width: 500px !important;
+}
+
+.item.item-text-wrap.item-icon-left.item-custom.sb-cms-block-address-locate {
+  color: transparent !important;
+}
+
+.sb-cms-address-address.ng-binding {
+  color: transparent !important;
+}
+
+/*
+//Map Icon buttons
+.info-window.slide-top {
+  background-image: url("https://shoptasmania.com.au/assets/img/1_get_directions.png");
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+}
+*/
+
+//GIF LOADER 
+.loading {
+  background-image: url("https://mmg-one.com.au/shoptas/app-loading.gif");
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center;
+  position: absolute !important;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+//Background image for App Inbox
+.module-cms.cms-l1.pane.has-background-image {
+    background-image: url("https://shoptasmania.com.au/assets/img/1_CradleBackground.svg") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+//Background Image for Account
+.customer-view.customer-layout1.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active {
+    background-image: url("https://mmg-one.com.au/shoptas/Account_Background.png") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.bold.positive.positive-custom.ng-binding {
+  color: #C9636C;
+}
+
+.button.button-positive.button-positive-custom.ng-binding.button-block {
+    background-color: #be424c;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    position: center !important;
+    border-radius: 8px;
+}
+
+ion-modal-view.customer-view.customer-layout1.modal.has-background-image.slide-in-up div.padding.text-center.ng-binding > span {
+  background-color: #F08844 !important;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  position: center !important;
+  //font-weight: bold;
+  font-variant: small-caps !important;
+}
+
+.padding.text-center.ng-binding {
+  color: #F08844 !important;
+  font-weight: bold !important;
+  font-variant: small-caps !important;
+}
+
+input.ng-pristine.ng-untouched.ng-valid.ng-empty.ng-valid-email::placeholder {
+    color: white !important;
+  font-variant: small-caps !important;
+}
+
+input.ng-pristine.ng-untouched.ng-valid.ng-empty::placeholder {
+    color: white !important;
+    padding-left: 125px !imporatant;
+    padding-right: 125px !imporatant;
+    font-variant: small-caps !important;
+}
+
+ion-modal-view.customer-view.customer-layout1.modal.has-background-image.slide-in-up div > div.list > div, ion-modal-view.customer-view.customer-layout1.modal.has-background-image.slide-in-up div > div.list > label {
+  background-color: #5A4F98 !important;
+  color: white !important;
+}
+
+.icon.ion-ios-person {
+    color: #5a4f98 !important;
+    font-size: 200%;
+    border-radius: 50% !important;
+    background: white !important;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.icon.ion-locked {
+    color: #5a4f98 !important;
+    font-size: 200%;
+    border-radius: 50% !important;
+    background: white !important;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.button.button-positive.button-positive-custom.ng-binding.button-block {
+    background-color: #BE424C;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    position: center !important;
+}
+
+ion-modal-view.customer-view.customer-layout1.modal.has-background-image.slide-in-up div > div.list {
+    width: 100% !important;
+    margin: auto;
+    margin-top: 40%;
+    /* margin-bottom: 20px; */
+}
+
+ion-modal-view.customer-view.customer-layout1.modal.has-background-image.slide-in-up div > div.list input {
+    color: white !important;
+    padding-left: 5% !important;
+}
+
+ion-view[state="places-view"] ion-content div.scroll > div.place-blocks.place-blocks-portrait > div > div > div.card div.sb-cms-block-address > div p, ion-view[state="places-view"] ion-content div.scroll > div.place-blocks.place-blocks-portrait > div > div > div.card div.sb-cms-block-address > div a {
+    color: black;
+}
+
+.module-places .sb-cms-block-address .item p {
+    color: transparent !important;
+}
+
+ion-view[state="places-view"] ion-content div.scroll > div.place-blocks.place-blocks-portrait > div > div > div.card div.sb-cms-block-address > div p, ion-view[state="places-view"] ion-content div.scroll > div.place-blocks.place-blocks-portrait > div > div > div.card div.sb-cms-block-address > div a {
+    color: transparent !important;
+}
+
+.info-window-more.ng-binding {
+  pointer-events: none;
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+.row.homepage-custom.border-custom.tabs.tabs-icon-top {
+  position: absolute !important;
+  top: 90% !important;
+}
+
+ion-modal-view.customer-view.customer-layout1.modal.has-background-image.slide-in-up div > div.list input {
+    color: black !important;
+    padding-left: 5% !important;
+}
+
+.cr-zoom-center-me {
+	//position: absolute !important;
+	//top: -200% !important;
+}
+
+.cr-zoom-in {
+  position: absolute !important;
+	top: -170% !important;
+}
+
+.cr-zoom-out {
+  	position: absolute !important;
+	top: -100% !important;
+}
+
+.bold {
+    font-weight: 1000;
+}
+
+.picker-dialog {
+  position: absolute !important;
+  top: 50% !important;
+}
+
+.layout.l103 .sbox .inner-scroll {
+    width: 100%;
+    overflow-y: hidden;
+    height: 100%;
+    transform: translate3d(0px, 0px, 0px) !important;
+}
+
+ion-modal-view.customer-view.customer-layout1.modal.has-background-image.slide-in-up img {
+    border: 3px white solid;
+    border-radius: 100px;
+    clip-path: circle;
+    padding: 0px;
+    width: 150px;
+    position: absolute;
+    top: 2000px;
+    height: 150px;
+    color: transparent;
+}
+
+ion-modal-view.customer-view.customer-layout1.modal.has-background-image.slide-in-up div > section.avatar.text-center.padding {
+    background-image: linear-gradient(360deg, transparent,transparent);
+    border-radius: 0% 0% 30% 30% !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.button.button-positive-custom {
+    border-color: rgb(215 64 64);
+    background-color: rgba(238, 75, 99, 1);
+    color:white;
+}
+
+.button.button-assertive-custom {
+    border-color: rgba(228, 33, 18, 1);
+    background-color: rgba(239, 71, 58, 1);
+    color: rgba(26, 22, 22, 1);
+    color: transparent; 
+    /* position: relative; */
+}
+
+.button.button-assertive-custom:after {
+    border-color: rgba(228, 33, 18, 1);
+    background-color: rgba(239, 71, 58, 1);
+    color: rgba(26, 22, 22, 1);
+    content: "Search";
+    /* position: relative; */
+}
