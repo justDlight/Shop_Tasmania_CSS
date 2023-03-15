@@ -1,6 +1,8 @@
 Shop Tasmania is Tassie's local online marketplace. Find great deals, products and services from local Tasmanian businesses.
 From holiday ideas, local groceries or liquor specials, Tasmanian crafts and gifts, home improvements, to new dining experiences or local experts, Shop Tasmania is the place to help you find what you're looking for.
 
+![Shop_Tas_Icon](https://user-images.githubusercontent.com/81500373/225204842-45745afd-8df9-49f0-b73a-4a584a140646.png)
+
 This code was developed by John Weiss for the Shop Tasmania Application.
 The Shop Tasmania Application was developed for a client using Eazi-Apps CMS.
 
